@@ -1,9 +1,12 @@
-import { Container } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import Cart from "./Cart";
 
 const Nav = () => {
+
+  const [showCart, setShowCart] = useState(false);
   return (
     <div
       style={{
@@ -43,13 +46,16 @@ const Nav = () => {
             Earphones
           </Link>
         </ul>
-        <Image
-          src="./assets/shared/desktop/icon-cart.svg"
-          alt="logo"
-          width={30}
-          height={30}
-        />
+        <Button onClick={() => setShowCart(!showCart)}>
+          <Image
+            src="./assets/shared/desktop/icon-cart.svg"
+            alt="logo"
+            width={30}
+            height={30}
+          />
+        </Button>
       </Container>
+      { showCart ? <Cart /> : null}
     </div>
   );
 };

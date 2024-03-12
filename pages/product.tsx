@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../componets/Nav'
-import { Box, Container } from '@mui/material'
+import { Box } from '@mui/material'
 import Product from '../componets/Product'
 
 const product = () => {
