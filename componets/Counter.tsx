@@ -1,5 +1,4 @@
 import { Box, Button } from "@mui/material";
-import { count } from "console";
 import React, { useState } from "react";
 
 const Counter = () => {
