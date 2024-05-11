@@ -6,15 +6,15 @@ const Cart = () => {
   return (
     <Box
       sx={{
-        postion: "absolute",
+        postion: "fixed",
         height: "100vh",
-        width: "100vw",
-        backgroundColor: "rgba(0,0,0,0.5)",
+        width: "100%",
+        backgroundColor: "rgba(128, 128, 128, 0.459)",
       }}
     >
       <Box
         sx={{
-          position: "fixed",
+          position: "absolute",
           right: 150,
           minHeight: "20vh",
           width: "25vw",
