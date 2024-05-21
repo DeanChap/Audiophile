@@ -54,7 +54,12 @@ const Product = () => {
                 Experience natural, lifelike audio and exceptional build quality made
                 for the passionate music enthusiast.
             </Typography>
-            
+            <Box sx={{display: "flex", alignItems: "center" }}>
+                <Counter />
+                <Button variant='contained' color='#d97d45'>
+                    Add to Cart
+                </Button>
+            </Box>
             
         </Box>
     </Container>
