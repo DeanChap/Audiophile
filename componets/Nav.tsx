@@ -54,7 +54,7 @@ const Nav = () => {
             height={30}
           />
         </Button>
-      </Container>
+      {/* </Container> */}
       { showCart ? <Cart /> : null}
     </div>
   );
