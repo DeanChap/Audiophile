@@ -12,9 +12,9 @@ const Counter = () => {
         marginRight: "0.5rem",
       }}
     >
-      <Button onClick={() => setCount(count - 1)}>-</Button>
+      {/* <Button onClick={() => setCount(count - 1)}>-</Button>
       {count}
-      <Button onClick={() => setCount(count + 1)}>+</Button>
+      <Button onClick={() => setCount(count + 1)}>+</Button> */}
     </Box>
   );
 };
